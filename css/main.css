@@ -119,7 +119,7 @@ section.two article{
 }
 
 section.two div:nth-child(1){
-	/* you can tell a cell to star and end at a row or colimn */
+	/* you can tell a cell to start and end at a row or colimn */
 	grid-column-start: 1;
 	grid-column-end: 3;
 
@@ -138,7 +138,7 @@ seciton.two div:nth-child(2){
 seciton.two div:nth-child(6){
 	grid-column-start: 1;
 
-	/* you can use span to tell it o strech across spepcific number of columns */
+	/* you can use span to tell it to strech across spepcific number of columns */
 	grid-column-end: span 4;
 }
 
@@ -154,7 +154,7 @@ section.three article{
 }
 
 section.three div:nth-child (2){
-	/* anothre way to move grid cells is with order by deful everuting has an order of 0 - anything with a higher  order comes later, anything with  a lower order comes earlier */
+	/* anothre way to move grid cells is with order by defult everuting has an order of 0 - anything with a higher  order comes later, anything with  a lower order comes earlier */
 	order: 1;
 
 }
@@ -210,7 +210,7 @@ section.four div:nth-child(8){ grid-area: footer; }
 		"header header header"
 		"main main aside"
 		"photo1 photo2 aside"
-		"footer footer footer"
+		"footer footer footer";
 	}
 
 }
@@ -222,8 +222,9 @@ section.four div:nth-child(8){ grid-area: footer; }
 		"header header header header"
 		"photo1 main main aside"
 		"photo2 main main aside"
-		"footer footer footer aside"
+		"footer footer footer aside";
 
 	}
 	
 }
+
